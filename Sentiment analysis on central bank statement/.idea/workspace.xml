@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a6b9c04-f979-4515-8adf-b07499e34339" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FOMCDiffusionMap-master/calendar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/New Microsoft Excel Worksheet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/New Microsoft Excel Worksheet.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/statements/20010917.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +74,10 @@
       <workItem from="1635392442323" duration="729000" />
       <workItem from="1635393214819" duration="2258000" />
       <workItem from="1635520857618" duration="5000" />
+      <workItem from="1635774326061" duration="637000" />
+      <workItem from="1636105350743" duration="1476000" />
+      <workItem from="1636116963218" duration="1830000" />
+      <workItem from="1636195066497" duration="447000" />
     </task>
     <servers />
   </component>
