@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a6b9c04-f979-4515-8adf-b07499e34339" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/.idea/Sentiment analysis on central bank statement.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/Fit the model.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/Identify the most important vector.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/Measuring the Distance.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/calendars.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/New Microsoft Excel Worksheet.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/SPY.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/^TNX.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/^VIX.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/calendars_minutes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/calendars_statements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19940204.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19940322.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19940517.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19940706.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19940816.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19940927.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19941115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19941220.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19950201.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19950328.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19950523.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19950706.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19950822.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19950926.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19951115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19951219.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19960131.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19960326.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19960521.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19960703.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19960820.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19960924.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19961113.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19961217.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19970205.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19970325.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19970520.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19970702.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19970819.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19970930.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19971112.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19971216.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19980204.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19980331.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19980519.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19980701.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19980818.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19980929.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19981117.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19981222.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19990203.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19990330.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19990518.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19990630.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19990824.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19991005.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19991116.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_19991221.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20000202.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20000321.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20000516.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20000628.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20000822.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20001003.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20001115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20001219.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20010131.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20010320.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20010515.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20010627.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20010821.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20011002.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20011106.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20011211.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20020130.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20020319.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20020507.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20020626.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20020813.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20020924.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20021106.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20021210.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20030129.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20030318.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20030506.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20030625.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20030812.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20030916.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20031028.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20031209.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20040128.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20040316.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20040504.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20040630.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20040810.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20040921.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20041110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20041214.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20050202.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20050322.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20050503.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20050630.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20050809.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20050920.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20051101.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20051213.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20060131.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20060328.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20060510.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20060629.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20060808.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20060920.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20061025.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20061212.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20070131.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20070321.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20070509.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20070628.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20070807.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20070918.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20071031.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20071211.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20080130.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20080318.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20080430.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20080625.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20080805.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20080916.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20081029.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20081216.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20090128.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20090318.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20090429.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20090624.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20090812.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20090923.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20091104.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20091216.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20100127.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20100316.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20100428.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20100623.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20100810.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20100921.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20101103.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20101214.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20110126.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20110315.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20110427.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20110622.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20110809.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20110921.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20111102.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20111213.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20120125.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20120313.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20120425.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20120620.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20120801.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20120913.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20121024.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20121212.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20130130.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20130320.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20130501.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20130619.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20130731.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20130918.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20131030.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20131218.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20140129.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20140319.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20140430.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20140618.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20140730.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20140917.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20141029.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20141217.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20150128.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20150318.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20150429.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20150617.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20150729.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20150917.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20151028.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20151216.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20160127.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20160316.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20160427.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20160615.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20160727.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20160921.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20161102.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20161214.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20170201.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20170315.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20170503.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20170614.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20170726.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20170920.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20171101.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20171213.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20180131.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20180321.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20180502.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20180613.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20180801.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20180926.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20181108.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20181219.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20190130.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20190320.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20190501.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20190619.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20190731.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20190918.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20191030.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20191211.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20200129.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20200315.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20200429.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20200610.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20200729.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20200916.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20201105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20201216.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20210127.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20210317.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20210428.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20210616.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20210728.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/minutes/FOMC_20210922.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/19940204.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/19940322.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/19940517.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/19940816.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/19941115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/19950201.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/19950706.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/19951219.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/19960131.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/19970325.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/19980929.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/19981117.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/19990518.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/19990630.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/19990824.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/19991005.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/19991116.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/19991221.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20000202.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20000321.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20000516.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20000628.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20000822.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20001003.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20001115.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20001219.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20010131.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20010320.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20010515.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20010627.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20010821.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20011002.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20011106.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20011211.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20020130.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20020319.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20020507.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20020626.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20020813.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20020924.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20021106.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20021210.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20030129.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20030318.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20030506.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20030625.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20030812.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20030916.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20031028.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20031209.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20040128.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20040316.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20040504.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20040630.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20040810.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20040921.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20041110.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20041214.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20050202.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20050322.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20050503.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20050630.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20050809.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20050920.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20051101.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20051213.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20060131.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20060328.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20060510.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20060629.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20060808.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20060920.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20061025.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20061212.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20070131.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20070321.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20070509.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20070628.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20070807.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20070918.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20071031.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20071211.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20080130.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20080318.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20080430.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20080625.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20080805.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20080916.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20081029.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20081216.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20090128.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20090318.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20090429.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20090624.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20090812.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20090923.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20091104.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20091216.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20100127.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20100316.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20100428.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20100623.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20100810.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20100921.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20101103.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20101214.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20110126.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20110315.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20110427.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20110622.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20110809.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20110921.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20111102.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20111213.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20120125.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20120313.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20120425.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20120620.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20120801.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20120913.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20121024.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20121212.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20130130.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20130320.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20130501.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20130619.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20130731.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20130918.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20131030.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20131218.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20140129.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20140319.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20140430.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20140618.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20140730.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20140917.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20141029.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20141217.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20150128.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20150318.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20150429.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20150617.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20150729.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20150917.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20151028.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20151216.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20160127.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20160316.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20160427.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20160615.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20160727.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20160921.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20161102.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20161214.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20170201.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20170315.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20170503.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20170614.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20170726.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20170920.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20171101.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20171213.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20180131.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20180321.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20180502.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20180613.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20180801.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20180926.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20181108.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20181219.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20190130.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20190320.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20190501.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20190619.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20190731.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20190918.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20191030.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20191211.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20200129.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20200315.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20200429.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20200610.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20200729.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20200916.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20201105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20201216.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20210127.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20210317.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20210428.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20210616.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20210728.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/statements/20210922.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data/~$New Microsoft Excel Worksheet.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data_1.feather" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hello Mr Market would you play FED' song/data_2.feather" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="207P1esVDBdYVGq3mPo56Z28sXa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FOMCDiffusionMap-master" />
+  </component>
+  <component name="RunManager">
+    <configuration name="DownloadFOMC" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sentiment analysis on central bank statement" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FOMCDiffusionMap-master" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FOMCDiffusionMap-master/DownloadFOMC.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.DownloadFOMC" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a6b9c04-f979-4515-8adf-b07499e34339" name="Changes" comment="" />
+      <created>1635392440814</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635392440814</updated>
+      <workItem from="1635392442323" duration="729000" />
+      <workItem from="1635393214819" duration="2258000" />
+      <workItem from="1635520857618" duration="5000" />
+      <workItem from="1635774326061" duration="637000" />
+      <workItem from="1636105350743" duration="1476000" />
+      <workItem from="1636116963218" duration="1830000" />
+      <workItem from="1636195066497" duration="447000" />
+      <workItem from="1636284098188" duration="486000" />
+      <workItem from="1636335304128" duration="751000" />
+      <workItem from="1636425477124" duration="1092000" />
+      <workItem from="1636444888493" duration="536000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Sentiment_analysis_on_central_bank_statement$DownloadFOMC.coverage" NAME="DownloadFOMC Coverage Results" MODIFIED="1635395599870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FOMCDiffusionMap-master" />
+  </component>
+</project>
