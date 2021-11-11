@@ -306,11 +306,10 @@ def clean_speech_text(df):
     df_new['full_text'] = full_text_col
     return df_new
 
-
 def plot_speeches_per_year(df, figsize=(8, 6), color='#ffd966'):
     fig = plt.figure(figsize=figsize)
-    count_by_year = df.groupby('speech_year').count()['index_no'].reset_index()
-    sns.barplot(data=count_by_year, x='speech_year', y='index_no', color=color)
+    count_by_year = df.groupby('speech_year').count().reset_index()
+    sns.barplot(data=count_by_year, x='speech_year', y='full_text', color=color)
     plt.xticks(rotation=90)
     plt.xlabel('Speech Year', fontsize=14)
     plt.ylabel('Number of Speeches', fontsize=14)
