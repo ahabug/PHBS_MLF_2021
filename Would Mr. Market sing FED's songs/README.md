@@ -25,7 +25,7 @@ In order to explore, disentangle the sentiment contained in FOMC's documents, we
 
 | Project  |                           Details                            |
 | :------: | :----------------------------------------------------------: |
-| **Goal** |      To find trading signals contained in FOMC minutes       |
+| **Goal** | exploring how market responses to the FED's newly published documents |
 | **Data** | [FOMC statements and minutes](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm); [Speeches of Federal Reserve Officials](https://www.federalreserve.gov/newsevents/speeches.htm); [Yahoo Finance](https://finance.yahoo.com/) |
 
 ## Task
