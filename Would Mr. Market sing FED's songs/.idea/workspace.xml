@@ -4,8 +4,15 @@
     <list default="true" id="5a6b9c04-f979-4515-8adf-b07499e34339" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fit the model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Fit the model.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frb_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/frb_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fitting the model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Fitting the model.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identifying the most important vector.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Identifying the most important vector.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archived_speeches_df.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frb_speeches_all.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frb_speeches_all_raw.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/speeches_df.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topic_vis.html" beforeDir="false" afterPath="$PROJECT_DIR$/topic_vis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w2v_model_ug_cbow.word2vec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w2v_model_ug_sg.word2vec" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +92,8 @@
       <workItem from="1636510910709" duration="1715000" />
       <workItem from="1636539513599" duration="163000" />
       <workItem from="1636557868526" duration="666000" />
+      <workItem from="1637291823477" duration="227000" />
+      <workItem from="1637319015882" duration="293000" />
     </task>
     <servers />
   </component>
