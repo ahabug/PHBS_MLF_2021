@@ -32,18 +32,17 @@ To explore, disentangle the sentiment contained in FOMC's documents, we initiali
 
 ## Result (some graphs)
 
-![minutes](.\graph\minutes.png)
+<img src=".\graph\minutes.png" alt="minutes"  />
 
-![minutes](.\graph\statements.png)
+<img src=".\graph\statements.png" alt="minutes"  />
 
-![minutes_words](.\graph\minutes_words.png)
+<img src=".\graph\minutes_words.png" alt="minutes_words"  />
 
-![statements_words](.\graph\statements_words.png)
-![distance](.\graph\distance.png)
-![topic_vis](.\graph\topic_vis.png)
+<img src=".\graph\statements_words.png" alt="statements_words"  />
+<img src=".\graph\distance.png" alt="distance"  />
+<img src=".\graph\topic_vis.png" alt="topic_vis"  />
 
-![speeches](.\graph\speeches.png)
-
+<img src=".\graph\speeches.png" alt="speeches"  />
 
 <img src=".\graph\VIX.png" alt="VIX"  />
 
