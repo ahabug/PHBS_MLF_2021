@@ -28,7 +28,7 @@ To explore, disentangle the sentiment contained in FOMC's documents, we initiali
 
 1. Measuring the distance of minutes and statements [Measuring the Distance.ipynb](https://github.com/ahabug/PHBS_MLF_2021/blob/master/Would%20Mr.%20Market%20sing%20FED's%20songs/Measuring%20the%20Distance.ipynb)
 2. Fit ML models with the market reaction as y variable (**we consider speeches full text as x variable due to sample size, similarly hereinafter**) [Fitting the model.ipynb](https://github.com/ahabug/PHBS_MLF_2021/blob/master/Would%20Mr.%20Market%20sing%20FED's%20songs/Fitting%20the%20model.ipynb)
-3. Identify the most important vector (and corresponding word/phrase) with feature selection/extraction  [Identifying the most important vector.ipynb](https://github.com/ahabug/PHBS_MLF_2021/blob/master/Would%20Mr.%20Market%20sing%20FED's%20songs/Fit%20the%20model.ipynb)
+3. Identify the most important vector (and corresponding word/phrase) with feature selection/extraction  [Identifying the most important vector.ipynb](https://github.com/ahabug/PHBS_MLF_2021/blob/master/Would%20Mr.%20Market%20sing%20FED's%20songs/Identifying%20the%20most%20important%20vector.ipynb)
 
 ## Result (some graphs)
 
